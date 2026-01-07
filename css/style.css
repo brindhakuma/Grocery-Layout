@@ -1,0 +1,1428 @@
+body{
+    min-width: 1400px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.free{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 550;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.logo{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.get{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    animation: slide 2s infinite ease-in-out;
+}.centerbox {
+    width: 100%;
+    text-align: center;
+}
+
+.bakery img{
+    width: 150px;
+    height: 100px;
+}
+
+.search input{
+    width: 550px;
+    height: 60px;
+    background-color: rgb(18, 182, 18);
+    border-radius: 25px;
+    border: none;
+}
+.search input::placeholder{
+    color: white;
+}
+.chips{
+    animation: seasoning 2s infinite;
+    
+}
+.search img{
+    position: relative;
+    left: -50px;
+    top: 10px;
+}
+.rojjas img{
+    width: 70px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+.navigate ul{
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    margin-top: -45px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 550;
+}
+.navigate ul li a{
+    text-decoration: none;
+    color: black;
+}
+.market img{
+    width: 100%;
+}
+.ways{
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.shot{
+    display: flex;   
+    gap: 50px;
+}
+.shot button{
+    width: 200px;
+    background-color: rgb(48, 183, 48);
+    border: none;
+    padding: 11px;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    border-radius: 11px;
+}
+.never a{
+    text-decoration: none;
+}
+.shot p{
+    color: orangered;
+    font-size: large;
+    font-weight: 550;
+}
+.cheat{
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+}
+
+.cheat img{
+    width: 250px;
+}
+.onion{
+    line-height: 2px;
+    margin-top: 15px;
+}
+.fresh img{
+    width: 170px;
+}
+.fresh{
+    background-color: rgb(240, 239, 239);
+    width: 170px;
+    padding: 15px;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.blood{
+    display: flex;
+    justify-content: space-around;
+}
+.straw img{
+    width: 150px;
+}
+.straw{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+}
+.app{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+    font-weight: 550;
+}
+.app img{
+    width: 350px;
+    height: 250px;
+}
+.app button{
+    width: 200px;
+    border: none;
+    padding: 15px;
+    border-radius: 11px;
+    background-color: green;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+}
+.orange{
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.bother{
+    line-height: 2px;
+    background-color: lightgray;
+    margin-top: -72px;
+}
+
+.orange img{
+    width: 250px;
+}
+.know{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 550;
+}
+.know button img{
+    width: 20px;
+}
+.know button{
+    background-color: white;
+    border-radius: 11px;
+}
+.names{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.kill{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.gold{
+    display: flex;
+    position: relative;
+    top: -150px;
+    left: 10px;
+    gap: 170px;
+}
+.gold img{
+    width: 30px;
+    height: 30px;
+    
+}
+.gold p{
+    background-color: rgb(188, 236, 92);   
+}
+.coat{
+    display: none;
+}
+
+.filter{
+    display: grid;
+    grid-template-areas: "sidebar mainbar";
+    grid-template-columns: 400px auto;
+    height: 190vh;
+    gap: 80px;
+    
+}
+.sidebar{
+    grid-area: sidebar;
+    font-size: x-large;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.tiramisu{
+    
+    width: 300px;
+    padding: 10px;
+    
+}
+.sidebar button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 11px;
+    width: 100px;
+}
+.submitbtn{
+    text-align:end;
+    padding: 10px;
+}
+.mainbar{
+    grid-area: mainbar;
+}
+.mains{
+ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);  
+}
+.donut img{
+    width: 270px;
+    height: 225px;
+}
+.heart{
+    padding-left: 220px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.heart img{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(251, 193, 117);
+}
+.price{
+    display: flex;
+    gap: 120px;
+    line-height: 0.1;
+    padding: 4px;
+}
+.pastries button{
+    width: 270px;
+    border: none;
+    padding: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-size: larger;
+}
+.out{
+    display: flex;
+}
+.out img{
+    position: relative;
+    left: -40px;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+}
+.next{
+    display: flex;
+    justify-content: space-around;
+}
+.current img{
+    width: 450px;
+    height: 350px;
+}
+.booth input{
+    padding: 11px;
+    border-radius: 11px;
+    border: 1px solid black;
+    width: 250px;
+}
+.supply{
+    padding-left: 200px;
+}
+.water{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 50px;
+}
+.climate img{
+    width: 250px;
+}
+.climate p{
+    font-weight: 550;
+}
+.twinkle{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 25px;
+    font-weight: 550;
+}
+.twinkle img{
+    width: 100px;
+}
+.sales img{
+    width: 450px;
+    height: 350px;
+}
+.booth p{
+    font-size: large;
+    font-weight: 550;
+}
+
+.footing{
+    display: flex;
+    justify-content: space-around;
+}
+.lists{
+    display: flex;
+    gap: 40px;
+}
+.media{
+    text-align: left;
+    padding-left: 220px;
+}
+.rights{
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(236, 136, 29);
+    padding: 10px;
+    font-size: 20px;
+}
+.footing img{
+    width: 100px;
+    margin-top: 10px;
+}
+.footlogo img{   
+    width: 130px;
+    text-align: center;  
+     margin-top: 20px; 
+}
+.footlogo p{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family: cursive;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+}
+.start{
+    width: 600px;
+    line-height: 40px;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+
+}
+.shop .now{
+        border: 5px dotted red;
+        padding: 15px;
+        width: 200px;
+        animation: coin 2s infinite;
+        height: 40px;
+}
+.now p{
+    text-align: center;
+    font-size: x-large;
+}
+
+.enquiry img{
+    width: 200px;
+    height: 80px;
+}
+.enquiry{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question{
+    width: 600px;
+    padding: 15px;
+    font-size: large;
+    margin-top: 50px;
+}
+.silver{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.ontime{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.remote{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.press img{
+    width: 400px;
+}
+.apt{
+    font-size: large;
+
+}
+.sugar{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.hurt{
+    width: 450px;
+}
+.sugar img{
+    width: 350px;
+}
+.alexa{
+    padding-left: 950px;
+}
+.melt img{
+    width: 650px;
+    height: 500px;
+}
+.melt{
+    padding-left: 680px;
+}
+.act{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.act img{
+    width: 350px;
+}
+.pen{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.sub{
+    width: 550px;
+    font-size: larger;
+}
+.pen img{
+    width: 650px;
+}
+.sub button{
+    background-color: green;
+    color: white;
+    padding: 11px;
+    width: 200px;
+    border: none;
+    font-size: large;
+    border-radius: 11px;
+}
+.at{
+    background-color: green;
+    font-size: large;
+    font-weight: 550;
+}
+.those{
+    display: flex;
+    justify-content: space-between;
+}
+.max tr td img{
+    width: 150px;
+}
+.max tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.handle{
+    display: flex;
+    justify-content: space-around;
+}
+.maxone tr td img{
+    width: 150px;
+}
+.maxone tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.mantra{
+    padding-left: 220px;
+}
+
+.maxtwo tr td img{
+    width: 150px;
+}
+.maxtwo tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.maxtwo thead th{
+    background-color: rgb(36, 179, 36);
+    width: 100%;
+}
+.think button{
+    padding: 11px;
+    background-color: green;
+    font-size: large;
+    font-weight: 550;
+    border-radius: 11px;
+    border: none;
+    color: white;
+}
+.think{
+    margin-top: 25px;
+}
+.stop{
+    display: flex;
+    justify-content: space-between;
+}
+.stopone{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    padding: 8px;
+    border-radius: 11px;
+}
+.stop button{
+    border: none;
+    background-color: green;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    border-radius: 11px;
+}
+.kite input{
+    width: 300px;
+    padding: 11px;
+    border-radius: 11px;
+    border: 2px solid green;
+}
+.kite{
+    position: absolute;
+    left: 380px;
+    z-index: 10000;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    top:180px;
+    width: 350px;
+}
+.stoptwo{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.faces img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 999;
+    left: 760px;
+    top: 180px;
+    border-radius: 15px;
+}
+.facesone img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 999;
+    left: 350px;
+    top: 180px;
+    border-radius: 15px;
+}
+.break{
+    display: none;
+}
+.stoptwo{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.air{
+     position: absolute;
+    left: 700px;
+    z-index: 10000;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    top:180px;
+
+}
+.air{
+    width: 350px;
+}
+.air input{
+    width: 300px;
+    padding: 11px;
+    border-radius: 11px;
+    border: 2px solid green;
+}
+.air button{
+    border: none;
+    background-color: green;
+    width: 100px;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+    border-radius: 11px;
+    height: 40px;
+}
+.this{
+    text-align: center;
+}
+.god{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* dark overlay */
+    z-index: 20000;
+}
+.godone{
+    display: none;
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* dark overlay */
+    z-index: 20000;
+}
+
+    /* background-color: green;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 410px;
+    border-radius: 15px;
+    text-align: center; */
+    .shut{
+     position: absolute;
+    top: 350px;
+    left: 560px;
+    transform: translate(-50%, -50%);
+    
+    width: 350px;
+    height: 300px;
+    padding: 25px;
+
+    background: green;      /* REQUIRED */
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.shutone{
+    position: absolute;
+    top: 360px;
+    left: 950px;
+    transform: translate(-50%, -50%);
+    
+    width: 350px;
+    height: 300px;
+    padding: 25px;
+
+    background: green;      /* REQUIRED */
+    border-radius: 10px;
+    text-align: center;
+}
+.shutone img{
+    position: absolute;
+}
+.facesone{
+    position: absolute;
+    left: 60px;
+    top: 1px;
+}
+
+.ask{
+    display: flex;
+    justify-content: space-between;
+}
+.booking{
+    display: flex;
+    gap: 10px;
+}
+.booking img{
+    width: 100px;
+    height: 100px;
+}
+.booking p{
+    margin-top: 50px;
+    font-size: larger;
+}
+.frequent{
+    padding-left: 450px;
+}
+.proceedbtn a{
+    text-decoration: none;
+    color: white;
+}
+.orderbtn a{
+    text-decoration: none;
+    color: white;
+}
+.submitbtn a{
+    text-decoration: none;
+    color: black;
+}
+.pastries p{
+    font-size: large;
+    font-weight: 600;
+}
+.pastries button a{
+    text-decoration: none;
+    color: white;
+}
+.buy{
+    background-color: rgb(255, 228, 232);
+    width: fit-content;
+}
+.candle{
+    animation: flash 2s infinite;
+}
+.candle img{
+    width: 350px;
+    height: 156vh;
+}
+.delicious{
+    text-align: center;
+}
+.cornflakes{
+    display: flex;
+    justify-content: space-around;
+    animation: corn 2s infinite;
+    margin-bottom: 50px;
+}
+.cornflakes img{
+    width: 250px;
+}
+.cornflakesone{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.cornflakesone img{
+    width: 250px;
+}
+.freshly{
+    text-align: center;
+}
+.bunone img{
+    width: 300px;
+}
+.buntwo img{
+    width: 450px;
+    margin-top: -100px;
+}
+.buns{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    font-size: larger;
+}
+.oneway{
+    display: flex;
+}
+.way{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+table,tr,th{
+    padding: 5px 60px;
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 30px;
+}
+.five{
+    display: flex;
+    gap: 100px;
+    font-size: larger;
+}
+.paypal{
+    display: flex;
+    gap: 100px;
+    background-color: white;
+    width: 400px;
+    margin: 20px;
+    border-radius: 11px;
+}
+.opinion button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: large;
+    border-radius: 11px;
+}
+.enter{
+    padding-left: 180px;
+}
+.opinion{
+    background-color: green;
+    width: 500px;
+    display: none;
+    position: absolute;
+    left: 750px;
+    top: 780px;
+    padding: 5px;
+    border-radius: 11px;
+}
+.upi{
+    width: 480px;
+    background-color: green;
+    position: absolute;
+    left: 750px;
+     top: 780px;
+     padding: 20px;
+     border-radius: 11px;
+     display: none;
+}
+.mentor{
+    padding-left: 160px;
+}
+.mentor label{
+    color: white;
+}
+.mentor button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 11px;
+    padding: 5px;
+}
+.success{
+    background-color: green;
+    width: 520px;
+    height: 250px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 550;
+    position: absolute;
+    left: 750px;
+     top: 750px;
+     border-radius: 11px;
+    display: none;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+
+}
+.outs button a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar h3 a{
+    text-decoration: none;
+    color: black;
+}
+.now a{
+    text-decoration: none;
+    color: black;
+}
+.interest a{
+    text-decoration: none;
+    color: black;
+}
+.success img{
+    width: 100px;
+    height: 100px;
+}
+.heads{
+    background-color: rgb(24, 184, 24);
+}
+.heads tr{
+    border-radius: 18px;
+}
+tbody tr,td{
+    padding: 25px 70px;
+    font-size: large;
+}
+td button{
+    border: none;
+    background-color: rgb(24, 184, 24);
+    color: white;
+    border-radius: 11px;
+    width: 120px;
+    padding: 10px;
+}
+.tabone{
+    background-color: green;    
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    font-size: large;
+    font-weight: 550;
+     border-radius: 11px;
+}
+.screen{
+    padding-left: 500px;
+   
+}
+.summary{
+    display: flex;
+    font-size: larger;
+padding-left: 80px;
+    gap: 200px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.discount{
+    display: flex;
+    gap: 70px;
+    line-height: 0.4;
+}
+.total{
+    display: flex;
+    gap: 150px;
+}
+.coupons{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 11px;
+    height: 300px;
+    margin-top: 100px;
+}
+.btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.proceedbtn{
+    padding-left: 55px;
+}
+.place{
+    display: flex;
+    gap: 5px;
+}
+.place input{
+    width: 235px;
+    padding: 10px;
+}
+.billing input{
+    padding: 10px;
+    width: 500px;
+}
+.delivery{
+    display: flex;
+    padding: 25px;
+    gap: 45px;
+}
+.checkout{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.annual{
+ border: 2px solid black;
+ padding: 10px;
+ border-radius: 11px;
+ height: fit-content;   
+ margin-top: 80px;
+}
+.checkout form label{
+    font-size: large;
+    font-weight: 550;
+}
+.checkout form{
+    background-color: rgb(24, 181, 24);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 11px;
+}
+.half{
+ border: 2px solid black;
+ padding: 10px;
+ border-radius: 11px;
+ width: fit-content;   
+}
+.tax{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
+}
+.mac{
+    padding-left: 220px;
+}
+.metal{
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    background-color: rgb(24, 181, 24);
+    color: white;
+}
+.rose{
+    padding-left: 200px;    
+}
+.rose table{
+    border: 2px solid gray;
+}
+#choosy{
+    cursor: pointer;
+    font-size: large;
+}
+.shipbtn{
+    display: flex;
+justify-content: center;
+gap: 850px;
+    background-color: rgb(48, 186, 48);
+    width: fit-content;
+    padding: 10px;
+    font-size: large;
+    font-weight: 550;
+}
+.figma{
+    padding-left: 280px;
+    margin-bottom: 25px;
+}
+.figmaone{
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+}
+.orderbtn button{
+   
+    border: none;
+    background-color: rgb(48, 186, 48);
+    color: white;
+    padding: 11px;
+    border-radius: 11px;
+    font-size: larger;
+}
+.orderbtn{
+    padding-left: 1100px;
+    margin-bottom: 25px;
+}
+.accept ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.line{
+    display: flex;
+    padding-left: 80px;
+}
+.services{
+    padding-left: 250px;
+    font-size: larger;
+}
+.cart{
+    width: 1000px;
+    background-color: rgb(48, 186, 48);
+    padding: 15px;
+    border-radius: 11px;
+}
+.ticks{
+    position: absolute;
+    left: 340px;
+    top: 385px;
+    z-index: 999;
+}
+.tickone{
+    position: absolute;
+    left: 590px;
+    top: 385px;
+    z-index: 999;
+}
+.info p{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+}
+.dress{
+    display: flex;
+    gap: 20px;
+}
+.dress input{
+    width: 200px;
+    padding: 11px;
+}
+.practical{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 70px;
+    padding: 15px;
+}
+.reality input{
+    width: 450px;
+    padding: 11px;
+}
+.practical button{
+    padding: 11px;
+    border-radius: 11px;
+    background-color: rgb(44, 183, 44);
+    color: white;
+    border: none;
+    font-size: large;
+}
+.ten{
+    background-color: black;
+    color: white;
+    border-radius: 11px;
+    font-size: large;
+}
+.eleven{
+    background-color: rgb(44, 183, 44);
+    color: white;
+    border-radius: 11px;
+    font-size: large;
+}
+.dress label{
+    font-size: large;
+}
+.reality label{
+    font-size: large;
+}
+.pass input{
+    padding: 11px;
+    width: 500px;
+}
+.pass label{
+    font-size: large;
+}
+.outs{
+    margin: 50px;
+}
+.bakes{
+    display: flex;
+    gap: 50px;
+    
+}
+.bakes input{
+    padding: 11px;
+    width: 300px;
+}
+.crops input{
+    padding: 15px;
+    width: 675px;
+}
+.area{
+ width: 695px;   
+}
+.telephone{
+    display: flex;
+}
+.telephone img{
+    width: 100%;
+}
+.farming{
+    background-color: green;
+    padding: 25px;
+    color: white;
+}
+.blink{
+    animation: changing 1s infinite;
+}
+.scrolling{
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 50px;
+}
+.scrolling img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    animation: executive 2s infinite;
+}
+.cakechef{
+    animation: inbox 2s infinite;
+}
+.quadraple{
+    font-size: x-large;
+    font-weight: 700;
+    animation: believe 2s infinite;
+}
+.call{
+    animation: calls 2s infinite;
+}
+.nine{
+    position: absolute;
+    left: 855px;
+    top: 780px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 270px;
+    border-radius: 11px;
+    display: none;
+}
+.race p{
+    background-color: rgb(52, 158, 52);
+    color: white;
+    padding: 5px;
+    font-size: large;
+}
+.race a{
+    text-decoration: none;
+    color: white;
+}
+.count{
+    width: 270px;
+    position: absolute;
+    background-color:rgb(52, 158, 52);
+    left: 1000px;
+    display: none;
+    z-index: 999;
+}
+.count h3{
+    color: white;
+}
+.downloading{
+    border-radius: 11px;
+    background-color: white;
+    color: black;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    
+    text-align: center;
+    font-size: large;
+}
+.granules{
+    cursor: pointer;
+}
+.regist button{
+    border: none;
+    background-color: rgb(222, 157, 73);
+    color: black;
+    font-size: large;
+    border-radius: 11px;
+    padding: 10px;
+}
+.regist{
+    margin-top: 20px;
+}
+.regist a{
+    text-decoration: none;
+    color: black;
+}
+.addto a{
+    text-decoration: none;
+    color: white;
+}
+.rely{
+    background-color: rgb(43, 158, 43);
+    font-weight: 550;
+    padding: 15px;
+    position: absolute;
+    z-index: 999;
+    left: 650px;
+    display: none;
+}
+.rely-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maxtwo td button{
+    cursor: pointer;
+}
+#closeRely{
+    cursor: pointer;
+    font-size: 18px;
+}
+.sub button{
+    cursor: pointer;
+}
+.celebrate img{
+    width: 20px;
+    height: 20px;
+}
+.celebrate{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.at{
+    color: white;
+}
+.orange a{
+    text-decoration: none;
+}
+@keyframes calls{
+    0%{
+        color: rgb(152, 241, 17);
+    }50%{
+        color: black;
+    }100%{
+        color: rgb(152, 241, 17);
+    }
+}
+@keyframes changing{
+    0%{
+        color: red;
+    }50%{
+        color: rgb(237, 180, 105);
+    }100%{
+        color: red;
+    }
+}
+@keyframes coin{
+    0%{
+        border-color: red;
+    }50%{
+        border-color: rgb(236, 177, 100);
+    }100%{
+        border-color: red;
+    }
+}
+@keyframes slide{
+     0%   { transform: translateX(-200px); }
+    50%  { transform: translateX(50px); }
+    100% { transform: translateX(-200px); }
+}
+@keyframes seasoning{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+@keyframes grapes{
+    0%{
+        color: black;
+    }50%{
+        color: rgb(140, 213, 30);
+    }100%{
+        color: black;
+    }
+}
+@keyframes choco{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+@keyframes flash{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.6;
+    }100%{
+        opacity: 1;
+    }
+}
+@keyframes corn{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+@keyframes executive{
+    from{
+        transform: translate(0);
+    }to{
+        transform: translate(-150%);
+    }
+}
+@keyframes inbox{
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
+@keyframes believe{
+    0%{
+        color: rgb(162, 231, 22);
+    }50%{
+        color: black;
+    }100%{
+        color: rgb(181, 255, 32);
+    }
+}
